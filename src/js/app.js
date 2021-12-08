@@ -3,10 +3,10 @@ const APP_TEMPLATE = `
   <q-header elevated>
     <q-toolbar>
       <q-btn flat @click="drawer = !drawer" round dense :icon="drawer ? 'menu_open' : 'menu'"></q-btn>
-      <q-toolbar-title class="text-center"><router-link :to="'annotation'" style="color: inherit;">ANU CVML Video Annotation Tool</router-link></q-toolbar-title>
-      <a href="https://www.anu.edu.au/" target="_blank">
+      <q-toolbar-title class="text-center"><router-link :to="'annotation'" style="color: inherit;">IMV Ultrasound Video Annotation Tool</router-link></q-toolbar-title>
+      <a href="https://www.imv-imaging.co.uk/" target="_blank">
         <q-avatar square size="md">
-          <img src="img/logo.svg" alt="logo">
+          <img src="img/logo.png" alt="logo">
         </q-avatar>
       </a>
     </q-toolbar>
